@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor:#FF6666;
+    --bgcolor:#FFEADD;
+    --paracolor:#FF8989;
+}
+body{
+    background-color: var(--maincolor);
+}
+.info{
+    background-color: var(--bgcolor);
+}
+h1{
+    color: var(--maincolor);
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    color: var(--paracolor);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color: var(--maincolor);
+    color: var(--bgcolor);
+}
+button:hover{
+    background-color: var(--paracolor) ;
+}
+
