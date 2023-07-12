@@ -20,8 +20,6 @@ var allQuotes=[
     {quote: `“Insanity is doing the same thing, over and over again, but expecting different results.”`,
     writer: `― Narcotics Anonymous`}
 ];
-btn.addEventListener('click',
-()=>{randomQuote();});
 var index;
 function randomQuote(){
     var randomIndex=Math.floor(Math.random() * allQuotes.length);
